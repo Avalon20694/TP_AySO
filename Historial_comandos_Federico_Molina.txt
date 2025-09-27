@@ -1,0 +1,81 @@
+sudo apt install bzip2
+sudo apt update && sudo apt upgrade
+reboot
+sudo adduser guest1
+sudo adduser Guest1
+sudo adduser guest1
+sudo adduser guest2
+sudo addgroup guest_group
+cat /etc/group
+cat /etc/user
+sudo useradd guest3
+id guest3
+sudo userdel guest3
+sudo groupdel guest3
+sudo groupdel 1004
+poweroff
+man search
+apropos search
+apt search git
+sudo apt install git
+sudo dpkg --configure -a
+sudo apt install git
+cat$HOME/.ssh/*.pub
+ssh-keygen
+cat $HOME/.ssh/*.pub
+sudo cat $HOME/.ssh/*.pub
+cd $HOME
+cd $HOME/.ssh
+cat *.pub
+cd $HOME
+ssh-keygen
+cat $HOME/.ssh/*.pub
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit
+pwd
+git clone git@github.com:Avalon20694/TP_AySO.git
+sudo apt install fit
+sudo apt install git
+git clone git@github.com:Avalon20694/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -| pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.mail "molina.federicoa@gmail.com" && git config --global user.name "Avalon20694"
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuario.txt"
+git config --global user.mail "molina.federicoa@gmail.com"
+git config --global user.user "Avalon20694"
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuario.txt"
+git config --global user.mail "molina.federicoa1@gmail.com"
+git config --global user.user "Avalon20694"
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuario.txt"
+git config --global user.email "molina.federicoa1@gmail.com"
+git config --global user.user "Avalon20694"
+git commit -m "ADD: agregado primer ejercicio sobre datos_usuario.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add . "feat: Añadiendo información de CPU"
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+cat <<EOF >> README.md
+
+Alumno: Federico
+División: 315 Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
